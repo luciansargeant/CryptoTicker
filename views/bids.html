@@ -1,0 +1,11 @@
+<div class="table-responsive">
+	<table class="table table-stripeds">
+		<tr><th>#</th><th>Price</th><th>Amount</th><th>Timestamp</th></tr>
+		<tr ng-repeat="bid in bids track by $index">
+	    	<td>{{$index+1}}</td>
+	    	<td>{{ bid.price }}</td>
+	    	<td>{{ bid.amount }}</td>
+	    	<td>{{ bid.timestamp}}</td>
+	  	</tr>
+	</table>
+</div>

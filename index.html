@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="CryptoApp">
+	
+	<head>
+
+		<base href="/" />
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>CryptoTicker</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css">
+    	<link rel="stylesheet" href="css/dashboard.css" >
+		
+		<!--JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.2/Chart.js" type="text/javascript"></script>
+        <script src="app/lib/angular.min.js"></script>
+        <script src="app/lib/angular-route.min.js"></script>
+        
+        <!-- Angular App -->
+        <script src="app/app.js"></script>
+
+        <!-- Angular Services -->
+        <script src="app/services/dataService.js"></script>
+
+        <!-- Angular Controllers -->
+        <script src="app/controllers/cryptoCtrl.js"></script>
+        <script src="app/controllers/navbarCtrl.js"></script>
+        
+        <script src="http://cdn.rawgit.com/jtblin/angular-chart.js/master/dist/angular-chart.js" type="text/javascript"></script>
+
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	</head>
+
+	<body ng-view>
+		<!-- Page contents injected here -->
+    </body>
+
+</html>
